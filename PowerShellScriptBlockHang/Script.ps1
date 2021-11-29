@@ -1,1 +1,0 @@
-﻿set-scriptblock -Expression { @( 'One', ' *$Two' ) | % { $_.trim(" *$") } }

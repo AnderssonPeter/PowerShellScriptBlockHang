@@ -9,10 +9,4 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.PowerShell.SDK" Version="7.2.0" />
   </ItemGroup>
-
-  <ItemGroup>
-    <None Update="Script.ps1">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
 </Project>
